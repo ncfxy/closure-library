@@ -21,6 +21,7 @@
   "homepage": "https://developers.google.com/closure/library/",
   "devDependencies": {
     "promise": "^7.0.4",
-    "protractor": "^2.1.0"
+    "protractor": "^2.1.0",
+    "typescript": "^2.6.2"
   }
 }

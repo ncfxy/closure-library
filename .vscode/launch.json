@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Gulp task",
+            "program": "c:/Users/fan_x/Documents/GitHub/closure-library/node_modules/_typescript@2.6.2@typescript/lib/tsc.js",
+            "args": [
+                "-p",
+                "c:/Users/fan_x/Documents/GitHub/closure-library/tsconfig.json"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}\\closure\\goog\\bootstrap\\nodejs.js",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            // "args": [
+            //     "tsc: build - tsconfig.json"
+            // ],
+            "outFiles": [
+                "${workspaceFolder}/haha/**/*.js"
+            ]
+        }
+    ]
+}

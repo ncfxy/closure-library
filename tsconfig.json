@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        // "outFile": "haha/all.js",
+        "outDir": "haha",
+        "declaration": true,
+        "declarationDir": "hahaDeclare",
+        "diagnostics": true
+    },
+    "include": [
+        
+        // "closure_typescript/goog/base.ts",
+        // "closure_typescript/goog/specialtype.ts",
+        // "closure_typescript/goog/object/object.ts"
+        // "closure_typescript/goog/array/array.ts",
+        "closure_typescript/goog/ui/component.ts"
+        // "closure_typescript/**/*.ts"
+    ]
+}
